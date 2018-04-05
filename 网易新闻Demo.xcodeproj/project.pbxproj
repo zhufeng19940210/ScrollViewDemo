@@ -13,6 +13,9 @@
 		BF41B22D20754A850038D730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF41B22C20754A850038D730 /* Assets.xcassets */; };
 		BF41B23020754A860038D730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF41B22E20754A860038D730 /* LaunchScreen.storyboard */; };
 		BF41B23320754A860038D730 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41B23220754A860038D730 /* main.m */; };
+		BF41B23B2075527A0038D730 /* ZFContentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41B23A2075527A0038D730 /* ZFContentTableViewController.m */; };
+		BF41B241207594510038D730 /* FengfengLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41B240207594510038D730 /* FengfengLabel.m */; };
+		BF41B244207594670038D730 /* FengfengConst.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41B243207594670038D730 /* FengfengConst.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		BF41B22F20754A860038D730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF41B23120754A860038D730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF41B23220754A860038D730 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF41B2392075527A0038D730 /* ZFContentTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFContentTableViewController.h; sourceTree = "<group>"; };
+		BF41B23A2075527A0038D730 /* ZFContentTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFContentTableViewController.m; sourceTree = "<group>"; };
+		BF41B23F207594510038D730 /* FengfengLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FengfengLabel.h; sourceTree = "<group>"; };
+		BF41B240207594510038D730 /* FengfengLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FengfengLabel.m; sourceTree = "<group>"; };
+		BF41B242207594670038D730 /* FengfengConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FengfengConst.h; sourceTree = "<group>"; };
+		BF41B243207594670038D730 /* FengfengConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FengfengConst.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,12 @@
 				BF41B22E20754A860038D730 /* LaunchScreen.storyboard */,
 				BF41B23120754A860038D730 /* Info.plist */,
 				BF41B23220754A860038D730 /* main.m */,
+				BF41B2392075527A0038D730 /* ZFContentTableViewController.h */,
+				BF41B23A2075527A0038D730 /* ZFContentTableViewController.m */,
+				BF41B23F207594510038D730 /* FengfengLabel.h */,
+				BF41B240207594510038D730 /* FengfengLabel.m */,
+				BF41B242207594670038D730 /* FengfengConst.h */,
+				BF41B243207594670038D730 /* FengfengConst.m */,
 			);
 			path = "网易新闻Demo";
 			sourceTree = "<group>";
@@ -145,6 +160,9 @@
 				BF41B22820754A850038D730 /* ViewController.m in Sources */,
 				BF41B23320754A860038D730 /* main.m in Sources */,
 				BF41B22520754A850038D730 /* AppDelegate.m in Sources */,
+				BF41B244207594670038D730 /* FengfengConst.m in Sources */,
+				BF41B23B2075527A0038D730 /* ZFContentTableViewController.m in Sources */,
+				BF41B241207594510038D730 /* FengfengLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
